@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeDex</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3e475c9ddd.js" crossorigin="anonymous"></script>
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+
+  <div id="main" class="main">
+    <div id="imgContainer" class="main-img-container">
+      <img id="pikachu" src="/images/pikachu.png" alt="">
+      <img id="pokeText" class="pokeText" src="/images/pokemon.png" alt="">
+    </div>
+  </div>
+
+
+  <div id="header" class="header">
+    <h1>PokéDex</h1>
+
+
+    <div class="types">
+      <button onclick="removeFilter()" class="type-btn" style="background-color:#fff;">All</button>
+      <button onclick="filterType('bug')" class="type-btn" style="background-color:#f8d5a3;">Bug</button>
+      <button onclick="filterType('dark')" class="type-btn" style="background-color:#909090;">Dark</button>
+      <button onclick="filterType('dragon')" class="type-btn" style="background-color:#97b3e6;">Dragon</button>
+      <button onclick="filterType('electric')" class="type-btn" style="background-color:#f7de60;">Electric</button>
+      <button onclick="filterType('fairy')" class="type-btn" style="background-color:#fceaff;">Fairy</button>
+      <button onclick="filterType('fighting')" class="type-btn" style="background-color:#E6E0D4;">Fighting</button>
+      <button onclick="filterType('fire')" class="type-btn" style="background-color:#FBB2B2;">Fire</button>
+      <button onclick="filterType('flying')" class="type-btn" style="background-color:#DEF3FD;">Flying</button>
+      <button onclick="filterType('ghost')"class="type-btn" style="background-color:#9F99AD;">Ghost</button>
+      <button onclick="filterType('grass')" class="type-btn" style="background-color:#DCFCDC;">Grass</button>
+      <button onclick="filterType('ground')" class="type-btn" style="background-color:#f4e7da;">Ground</button>
+      <button onclick="filterType('ice')" class="type-btn" style="background-color:#94C6E3;">Ice</button>
+      <button onclick="filterType('normal')" class="type-btn" style="background-color:#FFFFFF;">Normal</button>
+      <button onclick="filterType('poison')" class="type-btn" style="background-color:#cdbed6;">Poison</button>
+      <button onclick="filterType('psychic')" class="type-btn" style="background-color:#FCBBED;">Psychic</button>
+      <button onclick="filterType('rock')" class="type-btn" style="background-color:#d5d5d4;">Rock</button>
+      <button onclick="filterType('steel')" class="type-btn" style="background-color:#7C8E93;">Steel</button>
+      <button onclick="filterType('water')" class="type-btn" style="background-color:#bae9f0;">Water</button>
+    </div>
+
+    <div class="search-container">
+      <form action="" id="form"class="form">
+        <input id="search-input" type="text" class="search-input">
+        <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+
+
+  </div>
+
+  <div id="pokedex" class="pokedex">
+  </div>
+
+  <div id="page-up" class="page-up">
+
+    <i class="fas fa-arrow-up"></i>
+
+  </div>
+</body>
+
+</html>
