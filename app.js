@@ -124,14 +124,7 @@ window.addEventListener("scroll", () => {
 })
 
 pageUp.addEventListener('click', () => {
-  window.scrollTo(0, 965)
-})
-
-
-let imgContainer = document.getElementById('imgContainer')
-
-imgContainer.addEventListener('click', () => {
-  window.scrollTo(0, 965)
+  window.scrollTo(0, 0)
 })
 
 
