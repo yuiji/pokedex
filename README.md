@@ -2,6 +2,10 @@
 
 A pokédex made with vanilla JavaScript.
 
+## Demo Link
+
+https://yuiji-pokedex.netlify.app
+
 This project's design inspired by this [pen](https://codepen.io/FlorinPop17/pen/gOYZxyE) from codePen.
 
 
