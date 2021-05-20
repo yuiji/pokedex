@@ -6,7 +6,7 @@ This project inspired by this [pen](https://codepen.io/FlorinPop17/pen/gOYZxyE) 
 
 ## Demo Link
 
-https://codepen.io/yuiji_/pen/RwKqPvz
+https://codepen.io/yuiji_/full/RwKqPvz
 
 ![alt text](https://github.com/yuiji/pokedex/blob/master/images/pokedex-1.png)
 ![alt text](https://github.com/yuiji/pokedex/blob/master/images/pokedex-2.png)
